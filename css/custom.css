@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+	padding:100px 0 50px 0;
+}
+
+	header a.logo {
+		background: left top url("js-master-logo-small.png") no-repeat;
+		display:inline-block;
+		height:100px;
+		width:67px;
+		position:relative;
+	}
+
+		.row li a {
+			display:block;
+			position:relative;
+			overflow:hidden;
+			border:thin solid #8ac655;
+			padding-bottom:35px;
+		}
+		
+			.row li a span {
+				position:absolute;
+				padding:5px 10px;
+				bottom:0px;
+				left:0px;
+				width:100%;
+				text-shadow:0 1px 0 rgba(255,255,255,.3);
+			}
+			
+				.row li a:hover {
+					border:1px solid #474e5c;
+					text-shadow:0 0 3px rgba(0,0,0,.16);
+					transition:all 300ms;
+				}
+				
+			.row li a img {
+				width:100%;
+			}
+				
+.footer {
+	padding-top:100px;
+}
+		
+				
